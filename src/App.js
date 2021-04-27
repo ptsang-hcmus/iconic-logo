@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   const [firstWord, setFirstWord] = useState("Git");
   const [secondWord, setSecondWord] = useState("hub");
-  const [isDarkTheme, setIsDarkTheme] = useState(true);
+  const [isDarkTheme, setIsDarkTheme] = useState(false);
 
   return (
     <div className="d-flex App mt-20">
